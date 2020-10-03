@@ -16,6 +16,7 @@
 		ABE778E8251E8F77000E65B4 /* ToDoDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE778E7251E8F77000E65B4 /* ToDoDetailTableViewController.swift */; };
 		ABE778EC2521131C000E65B4 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE778EB2521131C000E65B4 /* ToDoItem.swift */; };
 		EC68708A2528FA0B009F9301 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6870892528FA0B009F9301 /* ListTableViewCell.swift */; };
+		ECD4765B25290F35003BB154 /* ToDoItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD4765A25290F35003BB154 /* ToDoItems.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		ABE778E7251E8F77000E65B4 /* ToDoDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDetailTableViewController.swift; sourceTree = "<group>"; };
 		ABE778EB2521131C000E65B4 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		EC6870892528FA0B009F9301 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		ECD4765A25290F35003BB154 /* ToDoItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItems.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				ABE778B3251E7F8B000E65B4 /* AppDelegate.swift */,
 				ABE778B5251E7F8B000E65B4 /* SceneDelegate.swift */,
 				ABE778EB2521131C000E65B4 /* ToDoItem.swift */,
+				ECD4765A25290F35003BB154 /* ToDoItems.swift */,
 				ABE778B7251E7F8B000E65B4 /* ToDoListViewController.swift */,
 				ABE778E7251E8F77000E65B4 /* ToDoDetailTableViewController.swift */,
 				EC6870892528FA0B009F9301 /* ListTableViewCell.swift */,
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABE778B8251E7F8B000E65B4 /* ToDoListViewController.swift in Sources */,
+				ECD4765B25290F35003BB154 /* ToDoItems.swift in Sources */,
 				ABE778B4251E7F8B000E65B4 /* AppDelegate.swift in Sources */,
 				ABE778EC2521131C000E65B4 /* ToDoItem.swift in Sources */,
 				ABE778E8251E8F77000E65B4 /* ToDoDetailTableViewController.swift in Sources */,
