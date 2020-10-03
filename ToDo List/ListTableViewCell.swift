@@ -13,7 +13,7 @@ protocol ListTableViewCellDelegate: class {
 }
 
 class ListTableViewCell: UITableViewCell {
-
+    
     @IBOutlet weak var checkBoxButton: UIButton!
     @IBOutlet weak var nameLabel: UILabel!
     
