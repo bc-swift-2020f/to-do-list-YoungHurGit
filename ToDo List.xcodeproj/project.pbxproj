@@ -15,6 +15,7 @@
 		ABE778C0251E7F9E000E65B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE778BE251E7F9E000E65B4 /* LaunchScreen.storyboard */; };
 		ABE778E8251E8F77000E65B4 /* ToDoDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE778E7251E8F77000E65B4 /* ToDoDetailTableViewController.swift */; };
 		ABE778EC2521131C000E65B4 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE778EB2521131C000E65B4 /* ToDoItem.swift */; };
+		EC68708A2528FA0B009F9301 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6870892528FA0B009F9301 /* ListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		ABE778C1251E7F9E000E65B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABE778E7251E8F77000E65B4 /* ToDoDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDetailTableViewController.swift; sourceTree = "<group>"; };
 		ABE778EB2521131C000E65B4 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		EC6870892528FA0B009F9301 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				ABE778EB2521131C000E65B4 /* ToDoItem.swift */,
 				ABE778B7251E7F8B000E65B4 /* ToDoListViewController.swift */,
 				ABE778E7251E8F77000E65B4 /* ToDoDetailTableViewController.swift */,
+				EC6870892528FA0B009F9301 /* ListTableViewCell.swift */,
 				ABE778B9251E7F8B000E65B4 /* Main.storyboard */,
 				ABE778BC251E7F9E000E65B4 /* Assets.xcassets */,
 				ABE778BE251E7F9E000E65B4 /* LaunchScreen.storyboard */,
@@ -100,7 +103,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Young Hur";
 				TargetAttributes = {
 					ABE778AF251E7F8B000E65B4 = {
@@ -149,6 +152,7 @@
 				ABE778EC2521131C000E65B4 /* ToDoItem.swift in Sources */,
 				ABE778E8251E8F77000E65B4 /* ToDoDetailTableViewController.swift in Sources */,
 				ABE778B6251E7F8B000E65B4 /* SceneDelegate.swift in Sources */,
+				EC68708A2528FA0B009F9301 /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +204,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -260,6 +265,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
